@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 300px;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }        
+        
+        th, td{
+            border: 1px solid rgb(173, 173, 173);
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th>Grupos</th>
+                <th>Nomes</th>
+                <th colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Pereira</td>
+                <td>hulk</td>
+                <td>hulk 2</td>
+                <td>Super-Herói: O Filmee</td>
+            </tr>
+            <tr>
+                <td>Heloísa </td>
+                <td>velozes e furioosos 2</td>
+                <td>hulk 7</td>
+                <td>Super-Herói: O Filme</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Homens</th>
+                <td>Geraldo</td>
+                <td>Vingadores</td>
+                <td>Rambo</td>
+                <td>Roblox</td>
+            </tr>
+            <tr>
+                <td>Ricardo</td>
+                <td>Minecraf</td>
+                <td>hulk 5</td>
+                <td> 7 dias</td>
+            </tr>
+            <tr>
+                <td>bernardo</td>
+                <td>Fortinite: Temporada 58</td>
+                <td>Minecraft</td>
+                <td>Minecraft 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
